@@ -138,7 +138,7 @@ function App() {
       </div>
 
   {/* Liên hệ */}
-<div className="lienhe" style={{backgrsoundColor: "rgb(0, 31, 14)", padding:"20px", borderRadius:"10px"}}>
+<div className="lienhe" style={{backgroundColor: "rgb(0, 31, 14)", padding:"20px", borderRadius:"10px"}}>
   <div className="container">
 
     <h2 className="titles">LIÊN HỆ VỚI CHÚNG TÔI</h2>
@@ -161,6 +161,43 @@ function App() {
     </div>
 
   </div>
+</div>
+      {/* Footer */}
+    <div className="footer">
+<div className="container">
+
+<div className="row">
+
+<div className="col-md-4 text-center">
+<h5>GIỚI THIỆU</h5>
+<p>TH Digi mang đến những loại nước uống thơm ngon và tươi mát, giúp khách hàng giải khát và thư giãn trong mọi khoảnh khắc. Với sự kết hợp giữa nguyên liệu chất lượng và hương vị đa dạng như trà, nước trái cây và các loại đồ uống sáng tạo, TH Digi luôn hướng đến việc mang lại trải nghiệm thưởng thức tuyệt vời. Chúng tôi mong muốn mỗi ly nước không chỉ ngon mà còn mang lại cảm giác sảng khoái và năng lượng tích cực cho khách hàng.
+</p>
+</div>
+
+<div className="col-md-4 text-center">
+<h5>LIÊN HỆ</h5>
+<p><b>Thương hiệu:</b> TH Digi</p>
+    <p><b>Địa chỉ:</b> 123 Nguyễn Trãi, TP.HCM</p>
+    <p><b>Điện thoại:</b> 0356172889</p>
+    <p><b>Email:</b> thdigi@gmail.com</p>
+</div>
+
+<div className="col-md-4 text-center">
+<h5>HỖ TRỢ KHÁCH HÀNG</h5>
+<p>Hướng dẫn mua hàng</p>
+<p>Chính sách giao hàng</p>
+<p>Chính sách đổi trả hoàn tiền</p>
+</div>
+
+</div>
+<hr/>
+<p className="copyright">
+© Copyright 2025 TH Digi. All rights reserved.
+Địa chỉ: 123 Nguyễn Trãi, TP.Hồ Chí Minh |
+MST: 0313175103 | Hotline: 1900 252 538
+</p>
+
+</div>
 </div>
     </>
   );
